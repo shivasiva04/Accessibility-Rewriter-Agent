@@ -9,7 +9,7 @@ export const STUDENT_STYLES = {
   CONTAINER: "relative z-10 text-center max-w-5xl px-6 py-20 mx-auto animate-fade-in-up",
 
   // --- HERO SECTION ---
-  BADGE: "inline-block mb-6 px-4 py-1.5 rounded-full backdrop-blur-md shadow-lg border uppercase tracking-widest text-xs font-bold " +
+  BADGE: "inline-block mb-6 mt-6 px-4 py-1.5 rounded-full backdrop-blur-md shadow-lg border uppercase tracking-widest text-xs font-bold " +
          "dark:bg-emerald-500/10 dark:border-emerald-400/20 dark:text-emerald-300 dark:shadow-[0_0_20px_rgba(16,185,129,0.15)] " +
          "bg-white/80 border-emerald-200 text-emerald-600 shadow-sm",
 

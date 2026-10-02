@@ -17,8 +17,18 @@ export const STUDENT_LANDING = {
       desc: "Prevents factual drift.",
       path: "/student/content-feed/joined" 
     },
-    { icon: "⚖️", title: "LexiQuest", desc: "Master vocabulary levels.", path: "/student/ai-courtroom" },
-    { icon: "🎨", title: "Visual Fallback", desc: "Diagrams when text fails.", path: "/student/explore" }
+    { 
+      icon: "📚", 
+      title: "LexiQuest", 
+      desc: "Master vocabulary levels.", 
+      path: "/student/ai-courtroom" 
+    },
+    { 
+      icon: "🎨", 
+      title: "Visual Fallback", 
+      desc: "Diagrams when text fails.", 
+      path: "/student/explore" 
+    }
   ],
 
   HERO: {

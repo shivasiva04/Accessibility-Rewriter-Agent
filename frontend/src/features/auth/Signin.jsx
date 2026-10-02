@@ -48,7 +48,7 @@ export default function Signin({ onLogin }) {
         toast.success("Login Successful! Welcome back.");
         
         // Update global app state
-        if(onLogin) onLogin({ username: response.username, email: form.email });
+        if(onLogin) onLogin({ username: response.username, email: form.email, role: response.role });
         
         setPopupOpen(false);
 
